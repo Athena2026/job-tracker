@@ -1,11 +1,16 @@
 # 构建并部署到 GitHub Pages（Project site: /job-tracker/）
 # 仓库 Settings → Pages → Source 选「GitHub Actions」
+# https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/
 name: Deploy to GitHub Pages
 
 on:
   push:
     branches: [main]
   workflow_dispatch:
+
+# 让 deploy-pages 等 JS Action 使用 Node 24，避免 Node 20 弃用告警
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 permissions:
   contents: read
@@ -23,7 +28,7 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "22"
           cache: npm
       - run: npm ci
       - run: npm run build
