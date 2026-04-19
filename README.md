@@ -4,7 +4,7 @@
 
 **仓库**：[github.com/Athena2026/job-tracker](https://github.com/Athena2026/job-tracker)
 
-[English summary](#english-summary) · [在线演示](#在线演示)（部署后在此填写链接）
+[English summary](#english-summary) · [在线演示](https://athena2026.github.io/job-tracker/)
 
 ---
 
@@ -97,7 +97,7 @@ src/
 
 ## 在线演示
 
-> 部署完成后，将 EdgeOne Pages（或其他平台）的访问 URL 更新到本节。
+**GitHub Pages**：[https://athena2026.github.io/job-tracker/](https://athena2026.github.io/job-tracker/)（`main` 分支推送后由 Actions 自动构建部署；首次需在仓库 **Settings → Pages** 将 Source 设为 **GitHub Actions**。）
 
 ---
 
