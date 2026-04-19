@@ -91,7 +91,7 @@ src/
 
 ## English summary
 
-**JobTracker** is a dark-themed SPA for tracking job applications: Kanban with drag-and-drop, a deadline calendar, a two-week overview with per-day drill-down, material progress, detail drawer, local persistence via Zustand, and optional deadline notifications. Stack: React 19, TypeScript, Vite, Tailwind, Zustand.
+**JobTracker** is a dark-themed SPA for tracking job applications: dashboard with drag-and-drop, a deadline calendar, a two-week overview with per-day drill-down, material progress, detail drawer, local persistence via Zustand, and optional deadline notifications. Stack: React 19, TypeScript, Vite, Tailwind, Zustand.
 
 ---
 
